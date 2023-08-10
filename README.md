@@ -2,26 +2,57 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.12.
 
-## Development server
+What I learned here:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Angular Basics:
 
-## Code scaffolding
+Understanding the fundamental concepts of Angular, such as components, services, and forms.
+How to create and manage reactive forms using Angular's FormGroup and FormControl.
+Angular Material:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Using Angular Material components to create a visually appealing and responsive user interface, including forms, tables, modals, and buttons.
+API Interaction:
 
-## Build
+Learning how to make HTTP requests using Angular's HttpClient to interact with external APIs (in this case, the Viacep API for address lookup).
+Local Storage:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Storing and retrieving data in the browser's local storage to maintain user data and state across sessions.
+Table Handling:
 
-## Running unit tests
+Working with Angular Material's MatTable to display tabular data, implement sorting and pagination, and handle user interactions with the table.
+Form Validation:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Implementing form validation using Angular's built-in validators to ensure data integrity and provide user feedback.
+Dialogs and Modals:
 
-## Running end-to-end tests
+Using Angular Material's MatDialog to create modal dialogs for user interactions such as editing and confirming actions.
+Event Handling:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Handling user events like button clicks, input changes, and form submissions to trigger appropriate actions.
+State Management:
 
-## Further help
+Understanding how to manage different states within the application and updating the user interface accordingly.
+Error Handling:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Implementing basic error handling to provide feedback to users when there are issues, such as failed API requests.
+Sharing and Copying Content:
+
+Using browser capabilities to share content and copy data to the clipboard.
+Code Organization and Structure:
+
+Learning how to structure an Angular application by organizing components, services, and other code in a clear and maintainable manner.
+Reusability and Modularity:
+
+Recognizing opportunities to create reusable components, services, and functions to keep the codebase clean and promote code reusability.
+DOM Manipulation:
+
+Performing basic DOM manipulation, such as selecting and copying elements.
+Browser Compatibility:
+
+Dealing with browser compatibility issues, including checking for support of certain features before using them.
+User Experience Design:
+
+Gaining insights into creating a user-friendly interface, providing feedback to users, and optimizing user interactions.
+Debugging and Troubleshooting:
+
+Learning how to identify and fix common issues that may arise during development, such as typos, logic errors, or unexpected behavior.
