@@ -1,0 +1,81 @@
+.header {
+    background-color: hsl(188, 49%, 73%);
+  
+  }
+  
+  .title {
+    cursor: pointer;
+  }
+  
+  .spacer {
+      flex: 1 1 auto;
+     }
+  
+    .mat-raised-button:hover {
+      background-color: #000000;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: color 0.5s; 
+      box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.8);
+    }
+  
+    .container {
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      height: 100vh; 
+      height: 250px;
+      margin-bottom: 0%;
+    }
+    
+    .output {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      
+    }
+  
+  
+    .property-wrapper {
+      display: block;
+    }
+  
+    .spinner-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba(255, 255, 255, 0.8);
+      z-index: 9999; 
+    }
+  
+    .formresult {
+    }
+  
+  
+  table {
+    width: 100%;
+    
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    margin:10px;
+  }
+  
+  td, th {
+    width: 10%;
+  }
+  
+  .mat-elevation-z8 {
+    padding: 20px;
+    box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.8);
+  }
+  
+  
+  
